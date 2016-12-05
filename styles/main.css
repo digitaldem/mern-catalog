@@ -1,0 +1,54 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  line-height: 22px;
+  margin: 0 0 auto;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.header {
+  background-color: #E3E3E3;
+  height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerLeft, .headerRight {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 5px;
+}
+
+.main {
+  padding: 15px;
+  margin: 0 0 50px 0;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+.jsonColumn:hover {
+  cursor: pointer;
+}
+
+.jsonColumn, .jsonCell {
+  padding: 5px 25px;
+}

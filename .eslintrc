@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "max-len": [2, 120],
+    "no-console": [0],
+    "comma-dangle": [2, "never"],
+    "no-confusing-arrow": [0],
+    "quote-props": [2, "as-needed", { "keywords": true, "unnecessary": true }],
+    "react/jsx-closing-bracket-location": [2, "after-props"],
+    "react/jsx-boolean-value": [0],
+    "react/jsx-filename-extension": [0],
+    "react/require-extension": [0],
+  }
+}
